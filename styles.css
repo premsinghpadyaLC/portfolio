@@ -2169,7 +2169,7 @@ footer > a:last-child:hover {
 
 /* 19 — HIGH-CONTRAST REVIEW SHOWCASE
    I felt like Warm ivory is the main page canvas; review cards use fully opaque,
-   distinct colors so the five-star highlights never fade into the backdrop. */
+   distinct colors so the five-star highlights never fade into the backdrop. - Premsingh Padya */
 :root {
   --paper: #fbf8f1;
   --paper-2: #f1eadc;
@@ -3157,4 +3157,92 @@ footer {
   .countdown-label {
     font-size: 7px !important;
   }
+}
+
+/* PORTFOLIO UPDATE — responsive professional layout */
+.hero { min-height: auto; grid-template-columns: minmax(0, 1.2fr) minmax(260px, .8fr); }
+.hero h1 { font-size: clamp(2.8rem, 5.3vw, 5.3rem); line-height: 1.04; }
+.hero-copy { max-width: 700px; }
+.hero-profile { position:relative; z-index:2; justify-self:center; width:min(100%, 360px); }
+.hero-profile img { width:100%; aspect-ratio:4/5; object-fit:cover; object-position:center 25%; border-radius: 180px 180px 28px 28px; border:1px solid rgba(217,180,119,.6); box-shadow:0 28px 80px rgba(0,0,0,.32); }
+.hero-profile .profile-caption { text-align:center; color:#fff; }
+.hero-profile .profile-caption span { color:#d5dce5; }
+.hero-badge { display:inline-flex; align-items:center; gap:8px; border:1px solid rgba(217,180,119,.45); padding:9px 14px; border-radius:999px; color:#f3d9a3; font-size:11px; letter-spacing:.8px; margin:0 0 22px; }
+.hero-badge:before { content:""; width:7px;height:7px;border-radius:50%;background:#8ee0ae;box-shadow:0 0 0 4px rgba(142,224,174,.12); }
+.hero-stats { margin-top:36px; }
+.hero-stats > div { min-width:0; }
+.hero-stats strong { font-size:12px; }
+.hero-stats span { font-size:11px; }
+.section { padding-top:90px; padding-bottom:90px; }
+.section-heading { max-width:760px; margin:0 auto 38px; }
+.section-heading h2 { font-size:clamp(2rem,4vw,3.3rem); }
+.section-heading p:not(.eyebrow) { color:var(--ink-soft); }
+.dark-section { background:linear-gradient(130deg,#07111f,#10243a); color:#fff; }
+.dark-section .section-heading p:not(.eyebrow) { color:#c3ccd7; }
+.experience-grid, .project-grid, .skills-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; }
+.experience-card, .project-card, .skill-card { padding:27px; border:1px solid rgba(19,43,67,.12); border-radius:18px; background:#fff; box-shadow:0 12px 35px rgba(8,19,32,.05); }
+.experience-card h3, .project-card h3, .skill-card h3 { margin:8px 0 4px; color:#132b43; }
+.experience-card p, .project-card p, .skill-card p { color:#536174; }
+.meta { color:#9d7943; font-size:11px; font-weight:800; letter-spacing:1px; text-transform:uppercase; }
+.tag-row { display:flex; flex-wrap:wrap; gap:8px; margin-top:16px; }
+.tag { border:1px solid #e3dfd5; background:#f8f6f1; color:#304156; padding:5px 10px; border-radius:999px; font-size:11px; }
+.project-card { background:linear-gradient(145deg,#fff,#f8f6f1); }
+.project-card a { color:#8b672f; font-weight:800; }
+.education-strip { padding:26px; background:#fff; border-radius:18px; border-left:4px solid var(--gold); box-shadow:var(--shadow-soft); }
+.education-strip + .education-strip { margin-top:14px; }
+.contact-section { background:#07111f; color:#fff; }
+.contact-section .section-heading p:not(.eyebrow) { color:#c3ccd7; }
+.contact-details { color:#d8e0e8; }
+footer { padding:26px var(--page-gutter); display:flex; flex-wrap:wrap; justify-content:space-between; gap:12px; background:#050c16; color:#aab5c3; font-size:12px; }
+footer a { color:#f3d9a3; }
+@media (max-width: 760px) {
+ .hero { grid-template-columns:1fr; padding-top:70px; }
+ .hero-profile { width:min(76%,290px); grid-row:1; margin-bottom:8px; }
+ .hero-content { grid-row:2; }
+ .experience-grid,.project-grid,.skills-grid { grid-template-columns:1fr; }
+ .section { padding-top:65px; padding-bottom:65px; }
+ .hero-stats { grid-template-columns:1fr; }
+}
+
+
+/* Portfolio polish: consistent experience cards and complete review gallery */
+#experience .experience-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 22px;
+  max-width: 1120px;
+  margin-inline: auto;
+}
+#experience .experience-card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-width: 0;
+  min-height: 100%;
+  padding: clamp(22px, 2.6vw, 32px);
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+}
+#experience .experience-card .tag-row { margin-top: auto; padding-top: 18px; }
+#experience .experience-card h3 { line-height: 1.3; }
+#experience .experience-card p { line-height: 1.65; }
+#reviews .review-layout { display: block; }
+#reviews .review-feature { position: relative; top: auto; max-width: 920px; margin: 0 auto 24px; }
+#reviews .review-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+#reviews .review-card { height: 100%; min-height: 170px; box-sizing: border-box; display: flex; flex-direction: column; }
+#reviews .review-card p { flex: 1; line-height: 1.65; }
+#reviews .review-place { display: block; margin-top: 14px; }
+#reviews .review-actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 28px; }
+#reviews .disclaimer { max-width: 900px; margin: 20px auto 0; text-align: center; }
+@media (max-width: 900px) {
+  #reviews .review-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 760px) {
+  #experience .experience-grid, #reviews .review-list { grid-template-columns: minmax(0, 1fr); }
+  #experience .experience-card { min-height: 0; }
 }

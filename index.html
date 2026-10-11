@@ -3,262 +3,96 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Premsingh Padya — customer service, sales, operations and leadership portfolio.">
-  <title>Premsingh Padya | Professional Portfolio</title>
+  <meta name="description" content="Premsingh Padya — software development, application support, operations leadership and customer experience portfolio.">
+  <meta name="theme-color" content="#07111f">
+  <title>Premsingh Padya | Software & Operations Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<header class="site-header">
+  <a class="brand" href="#home"><span class="brand-mark">P</span><span>PREMSINGH PADYA<small>SOFTWARE · SUPPORT · OPERATIONS</small></span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  <nav id="nav">
+    <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#reviews">Reviews</a><a class="nav-cta" href="#contact">Contact</a>
+  </nav>
+</header>
+<main>
+<section class="hero" id="home">
+ <div class="hero-content">
+  <p class="eyebrow">OTTAWA, ONTARIO · OPEN TO OPPORTUNITIES</p>
+  <h1>Building better digital experiences. <span>Solving real-world problems.</span></h1>
+  <p class="hero-copy">I’m Premsingh Padya — a software development and application support professional with enterprise experience supporting Munich Re applications, hands-on React and Supabase product development, and frontline operations leadership.</p>
+  <div class="hero-actions">
+   <a class="button button-gold" href="Premsingh_Padya_Resume.pdf" target="_blank" rel="noopener">View Résumé ↗</a>
+   <a class="text-link" href="#projects">Explore My Work ↓</a>
+  </div>
+  <div class="hero-stats">
+   <div><strong>2.3 Years</strong><span>Enterprise IT experience</span></div>
+   <div><strong>32 Applications</strong><span>Munich Re London support</span></div>
+   <div><strong>Product Builder</strong><span>GetOpsCue · React · Supabase</span></div>
+  </div>
+ </div>
+ <div class="hero-profile">
+  <img src="premsinghpadya.jpeg" alt="Portrait of Premsingh Padya">
+  <div class="profile-caption"><strong>PREMSINGH PADYA</strong><span> Product Lead — GetOpsCue</span></div>
+ </div>
+</section>
 
-  <!-- NAVIGATION -->
-  <header class="site-header">
-    <a class="brand" href="#home">
-      <span class="brand-mark">P</span>
-      <span>
-        Premsingh Padya
-        <small>SERVICE · LEADERSHIP · RESULTS</small>
-      </span>
-    </a>
+<section class="section" id="about">
+ <div class="section-heading">
+  <p class="eyebrow">ABOUT ME</p><h2>Technical thinking. <span>Operational ownership.</span></h2>
+  <p>I combine troubleshooting and software skills with direct experience serving customers, supporting teams, and improving day-to-day workflows.</p>
+ </div>
+ <div class="impact-grid">
+  <article class="impact-card"><div class="icon-box">⌘</div><h3>Application Support</h3><p>Incident triage, root-cause investigation, SLA prioritization, release validation, and clear handover documentation.</p></article>
+  <article class="impact-card"><div class="icon-box">↗</div><h3>Software Development</h3><p>Responsive interfaces, React/Vite applications, JavaScript workflows, and database-backed product features.</p></article>
+  <article class="impact-card"><div class="icon-box">◎</div><h3>Operations &amp; Leadership</h3><p>Customer service, sales, shift execution, coaching, issue escalation, and practical process improvement.</p></article>
+  <article class="impact-card"><div class="icon-box">✦</div><h3>Security Mindset</h3><p>Role-based access, Supabase Auth, PostgreSQL Row Level Security, and least-privilege design in product workflows.</p></article>
+ </div>
+</section>
 
-    <button class="menu-toggle" id="menuToggle"
-            aria-label="Toggle navigation" aria-expanded="false">
-      ☰
-    </button>
+<section class="section dark-section" id="experience">
+ <div class="section-heading">
+  <p class="eyebrow">CAREER JOURNEY</p><h2>Experience that connects <span>technology and people.</span></h2>
+  <p>Enterprise support, product ownership, and customer-facing operations.</p>
+ </div>
+ <div class="experience-grid">
+  <article class="experience-card"><span class="meta">2026 – Present · Ottawa</span><h3> Product Lead</h3><p><strong>GetOpsCue · Prem All Season Services</strong></p><p>Designed and deployed an operations proof platform for multi-location teams to complete checklists, submit photo evidence, report issues, and give managers better visibility.</p><div class="tag-row"><span class="tag">React</span><span class="tag">Vite</span><span class="tag">Supabase</span><span class="tag">PostgreSQL / RLS</span></div></article>
+  <article class="experience-card"><span class="meta">Oct 2025 – Present · Ottawa</span><h3>Employee</h3><p><strong>DYMON Storage</strong></p><p>Support leasing, facility tours, customer account updates, retail sales, cash handling, store standards, and issue resolution. Built a Smart Navigator prototype for customer wayfinding.</p><div class="tag-row"><span class="tag">Customer Experience</span><span class="tag">Sales</span><span class="tag">Operations</span><span class="tag">JavaScript / SVG</span></div></article>
+  <article class="experience-card"><span class="meta">Aug 2025 – Present · Ottawa</span><h3>Shift Manager</h3><p><strong>KFC Canada</strong></p><p>Coordinate shift execution, team workflows, closing procedures, food safety, inventory support, cash checks, and customer issue handling in a fast-paced environment.</p><div class="tag-row"><span class="tag">Team Coordination</span><span class="tag">Shift Leadership</span><span class="tag">Quality Standards</span></div></article>
+  <article class="experience-card"><span class="meta">Oct 2021 – Dec 2023 · India</span><h3>Software Engineer — AEM Developer &amp; L2 Application Support</h3><p><strong>HCLTech · Munich Re London applications</strong></p><p>Supported 32 applications, investigated incidents and defects, validated data with SQL, supported AEM Sites and DAM, and coordinated with development, infrastructure, database, and business teams.</p><div class="tag-row"><span class="tag">Adobe Experience Manager</span><span class="tag">Java</span><span class="tag">SQL</span><span class="tag">ServiceNow</span><span class="tag">Jira</span></div></article>
+ </div>
+</section>
 
-    <nav id="nav">
-      <a href="#team-support">Get Help</a>
-      <a href="#reviews">Reviews</a>
-      <a href="#experience">Experience</a>
-      <a class="nav-cta" href="#contact">Information</a>
-    </nav>
-  </header>
+<section class="section" id="projects">
+ <div class="section-heading"><p class="eyebrow">SELECTED WORK</p><h2>Projects built around <span>practical outcomes.</span></h2><p>Product and prototype work focused on useful workflows, clarity, and responsive user experiences.</p></div>
+ <div class="project-grid">
+  <article class="project-card"><span class="meta">Live Product · React / Supabase</span><h3>GetOpsCue — Operations Proof Platform</h3><p>A platform concept for multi-location businesses to manage shift checklists, photo proof, issue reporting, and manager dashboards with approval-based access and role-aware data controls.</p><div class="tag-row"><span class="tag">React</span><span class="tag">Vite</span><span class="tag">Supabase Auth</span><span class="tag">PostgreSQL</span></div><p><a href="https://getopscue.com" target="_blank" rel="noopener">Visit GetOpsCue ↗</a></p></article>
+  <article class="project-card"><span class="meta">Prototype · JavaScript / SVG</span><h3>Smart Navigator</h3><p>A mobile-first indoor wayfinding prototype using structured route data, SVG path display, unit validation, and shortest-path routing logic to help visitors/clients/customers navigate.</p><div class="tag-row"><span class="tag">JavaScript</span><span class="tag">SVG</span><span class="tag">JSON</span><span class="tag">Responsive UI</span></div></article>
+  <article class="project-card"><span class="meta">Web Experiences · HTML / CSS / JS</span><h3>QR Review &amp; Feedback Sites</h3><p>Built mobile-friendly QR-enabled review and feedback interfaces designed around simple journeys, fast loading, and customer-facing workflows.</p><div class="tag-row"><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag">GitHub Pages</span></div></article>
+  <article class="project-card"><span class="meta">Core Technologies</span><h3>Technical Toolkit</h3><p>JavaScript, HTML5, CSS3, Java, SQL, React, Vite, Supabase, PostgreSQL, AEM Sites, OSGi, Sling Models, Servlets, Maven, Git, GitHub, Netlify, ServiceNow, and Jira.</p><div class="tag-row"><span class="tag">Frontend</span><span class="tag">Application Support</span><span class="tag">AEM</span><span class="tag">Troubleshooting</span></div></article>
+ </div>
+</section>
 
-  <main>
-
-    <!-- HERO -->
-    <section class="hero" id="home">
-      <div class="hero-content">
-        <p class="eyebrow">PREMSINGH PADYA · CUSTOMER SERVICE</p>
-
-        <h1>
-          Prem is away on vacation.
-          <span>Great service continues.</span>
-        </h1>
-
-        <p class="hero-copy">
-          Prem is currently away and is expected to return on
-          <strong>October 23, 2026</strong>. For assistance, please
-          communicate directly with the store team. Any non-urgent
-          matters intended specifically for Prem will be considered
-          after his vacation.
-        </p>
-
-        <div class="hero-actions">
-          <a class="button button-gold" href="#reviews">
-            Read Customer Reviews ↗
-          </a>
-          <a class="text-link" href="#team-support">
-            Contact the Store Team ↓
-          </a>
-        </div>
-
-        <div class="hero-stats">
-          <div>
-            <strong>Need Assistance?</strong>
-            <span>Contact the store team</span>
-          </div>
-          <div>
-            <strong>Personal Follow-up</strong>
-            <span>Considered after his vacation</span>
-          </div>
-          <div>
-            <strong>Service Continues</strong>
-            <span>The team is ready to help</span>
-          </div>
-        </div>
-
-        <p class="small-note">
-          For all immediate needs, please contact the store team directly.
-        </p>
-      </div>
-
-      <!-- PROFILE AND COUNTDOWN -->
-      <section class="profile-gallery">
-
-        <div class="countdown-section">
-          <div class="countdown-timer" id="countdown-timer">
-
-            <div class="countdown-unit">
-              <div class="flip-card">
-                <span class="flip-number" id="countdown-days">00</span>
-              </div>
-              <span class="countdown-label">DAYS</span>
-            </div>
-
-            <div class="countdown-separator">:</div>
-
-            <div class="countdown-unit">
-              <div class="flip-card">
-                <span class="flip-number" id="countdown-hours">00</span>
-              </div>
-              <span class="countdown-label">HOURS</span>
-            </div>
-
-            <div class="countdown-separator">:</div>
-
-            <div class="countdown-unit">
-              <div class="flip-card">
-                <span class="flip-number" id="countdown-minutes">00</span>
-              </div>
-              <span class="countdown-label">MINUTES</span>
-            </div>
-
-            <div class="countdown-separator">:</div>
-
-            <div class="countdown-unit">
-              <div class="flip-card">
-                <span class="flip-number" id="countdown-seconds">00</span>
-              </div>
-              <span class="countdown-label">SECONDS</span>
-            </div>
-
-          </div>
-
-          <p class="countdown-footer" id="countdown-message">
-            Expected return: October 23, 2026
-          </p>
-        </div>
-
-        <div class="profile-gallery-heading">
-          <h2>Meet Premsingh</h2>
-        </div>
-
-        <div class="profile-gallery-grid">
-          <article class="profile-card">
-            <div class="profile-frame" id="frame-one">
-              <img
-                src="premsinghpadya.jpeg"
-                alt="Premsingh Padya"
-                class="profile-image"
-                id="image-one"
-              >
-            </div>
-
-            <div class="profile-caption">
-              <strong>PREMSINGH PADYA</strong>
-              <span>Founder &amp; Product Lead — GetOpsCue.com</span>
-            </div>
-          </article>
-        </div>
-
-      </section>
-
-      <div class="floating-note">
-        <span class="quote-icon">“</span>
-        <div>
-          <strong>Service with ownership.</strong>
-          <span>Professional. Helpful. Dependable.</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- SUPPORT INFORMATION -->
-    <section class="vacation-options section" id="team-support">
-      <div class="section-heading">
-        <p class="eyebrow">HOW CAN WE HELP?</p>
-        <h2>We're here to <span>help you.</span></h2>
-        <p>
-          The store team remains your main point of contact while Prem is away.
-        </p>
-      </div>
-
-      <div class="support-grid">
-
-        <article class="support-card support-card-prem">
-          <span class="support-icon">✦</span>
-          <p class="support-kicker">PERSONAL FOLLOW-UP</p>
-          <h3>Have a message for Prem?</h3>
-          <p>
-            Please share non-urgent matters with the store team.
-            Prem will consider them after returning from vacation.
-          </p>
-          <a class="button button-gold" href="#contact">
-            View Support Information ↓
-          </a>
-        </article>
-
-        <article class="support-card support-card-team">
-          <span class="support-icon">◎</span>
-          <p class="support-kicker">IMMEDIATE ASSISTANCE</p>
-          <h3>The store team is ready to help.</h3>
-          <p>
-            For storage enquiries, account questions or other assistance,
-            please contact or visit the store directly.
-          </p>
-          <a class="button button-outline-light" href="#contact">
-            How to Get Help ↓
-          </a>
-        </article>
-
-      </div>
-    </section>
-
-    <!-- CONTRIBUTIONS -->
-    <section class="section" id="impact">
-      <div class="section-heading">
-        <p class="eyebrow">HIS APPROACH</p>
-        <h2>Small details. <span>Lasting impact.</span></h2>
-        <p>
-          Focused on customer care, practical solutions and reliable operations.
-        </p>
-      </div>
-
-      <div class="impact-grid">
-        <article class="impact-card">
-          <div class="icon-box">✦</div>
-          <h3>Customer Care</h3>
-          <p>Listening carefully, explaining options clearly and treating people with respect.</p>
-        </article>
-
-        <article class="impact-card">
-          <div class="icon-box">↗</div>
-          <h3>Sales &amp; Solutions</h3>
-          <p>Understanding customer needs and recommending suitable options.</p>
-        </article>
-
-        <article class="impact-card">
-          <div class="icon-box">◎</div>
-          <h3>Operational Ownership</h3>
-          <p>Supporting facility standards, documentation and smooth shift handovers.</p>
-        </article>
-
-        <article class="impact-card">
-          <div class="icon-box">＋</div>
-          <h3>Teamwork</h3>
-          <p>Sharing knowledge and helping colleagues deliver consistent service.</p>
-        </article>
-      </div>
-    </section>
-
-    <!-- CUSTOMER REVIEWS -->
-    <section class="section reviews-section" id="reviews">
+<section class="section reviews-section" id="reviews">
       <div class="reviews-top">
         <div class="section-heading left">
           <p class="eyebrow">CUSTOMER VOICES</p>
-          <h2>Kind words, <span>real impact.</span></h2>
+          <h2>Professionalism, people<span> remember.</span></h2>
           <p>
-            Selected customer review excerpts from his work in storage and food service.
+            Selected customer review excerpts from storage and food-service roles.
           </p>
         </div>
 
         <div class="rating-summary">
           <div class="stars">★★★★★</div>
-          <strong>Customer Feedback</strong>
+          <strong>Customer feedback</strong>
           <span>Selected review excerpts</span>
         </div>
       </div>
 
       <div class="review-layout">
-
+        <!-- FEATURED REVIEW -->
         <article class="review-feature">
           <div class="review-feature-top">
             <span class="google-g">G</span>
@@ -283,124 +117,185 @@
           <a class="review-source"
              href="https://www.google.com/maps/place/DYMON+Storage+Coventry+-+Ottawa/@45.4193788,-75.682426,20z/data=!4m8!3m7!1s0x4cce057ea8108389:0x3353cb09ba35e5b1!8m2!3d45.421599!4d-75.6516074!9m1!1b1!16s%2Fg%2F1tfptx4j?entry=ttu"
              target="_blank" rel="noopener noreferrer">
-            View Store Reviews ↗
+            View DYMON Google reviews ↗
           </a>
         </article>
 
+        <!-- REVIEW CARDS -->
         <div class="review-list">
 
           <article class="review-card">
-            <div class="review-card-top"><span class="google-g">G</span><span class="stars">★★★★★</span></div>
+            <div class="review-card-top">
+              <span class="google-g">G</span>
+              <span class="stars">★★★★★</span>
+            </div>
             <p>“Prem was extremely helpful, friendly and professional.”</p>
             <span class="review-place">DYMON Storage Coventry</span>
           </article>
 
           <article class="review-card">
-            <div class="review-card-top"><span class="google-g">G</span><span class="stars">★★★★★</span></div>
-            <p>“Really good place, people here is amazing, got attended by Prem from Coventry and he gave me a really nice presentation of all the services.”</p>
-            <span class="review-place">DYMON Storage Southkeys</span>
-          </article>
-
-          <article class="review-card">
-            <div class="review-card-top"><span class="google-g">G</span><span class="stars">★★★★★</span></div>
+            <div class="review-card-top">
+              <span class="google-g">G</span>
+              <span class="stars">★★★★★</span>
+            </div>
             <p>“We had Prem as our sales rep and he gave us excellent service. Thank you.”</p>
             <span class="review-place">DYMON Storage Coventry</span>
           </article>
 
           <article class="review-card">
-            <div class="review-card-top"><span class="google-g">G</span><span class="stars">★★★★★</span></div>
+            <div class="review-card-top">
+              <span class="google-g">G</span>
+              <span class="stars">★★★★★</span>
+            </div>
             <p>“Prem was very informative and helpful.”</p>
             <span class="review-place">DYMON Storage Coventry</span>
           </article>
 
           <article class="review-card">
-            <div class="review-card-top"><span class="google-g">G</span><span class="stars">★★★★★</span></div>
+            <div class="review-card-top">
+              <span class="google-g">G</span>
+              <span class="stars">★★★★★</span>
+            </div>
             <p>“Prem was very helpful and delivered great customer service!”</p>
             <span class="review-place">DYMON Storage Coventry</span>
           </article>
 
           <article class="review-card">
-            <div class="review-card-top"><span class="google-g">G</span><span class="stars">★★★★★</span></div>
-            <p>“Great experience with Prem!”</p>
-            <span class="review-place">DYMON Storage Southkeys</span>
-          </article>
-
-          <article class="review-card">
-            <div class="review-card-top"><span class="google-g">G</span><span class="stars">★★★★★</span></div>
+            <div class="review-card-top">
+              <span class="google-g">G</span>
+              <span class="stars">★★★★★</span>
+            </div>
             <p>“Prem was excellent! He was very helpful, courteous and funny.”</p>
             <span class="review-place">DYMON Storage Coventry</span>
           </article>
 
           <article class="review-card">
-            <div class="review-card-top"><span class="google-g">G</span><span class="stars">★★★★★</span></div>
-            <p>“The whole team, Office Sales (Prem) and the two Dymon Movers for Coventry Rd Storage were wonderful! We appreciate their friendliness and all around professionalism.”</p>
+            <div class="review-card-top">
+              <span class="google-g">G</span>
+              <span class="stars">★★★★★</span>
+            </div>
+            <p>
+              “The whole team, Office Sales (Prem) and the two Dymon
+              Movers for Coventry Rd Storage were wonderful! We appreciate
+              their friendliness and all around professionalism.”
+            </p>
             <span class="review-place">DYMON Storage Coventry</span>
           </article>
 
           <article class="review-card">
-            <div class="review-card-top"><span class="google-g">G</span><span class="stars">★★★★★</span></div>
-            <p>“Although a little bit frustrated with my situation with the company, Prem was very clear and helpful in helping me through the problem.”</p>
+            <div class="review-card-top">
+              <span class="google-g">G</span>
+              <span class="stars">★★★★★</span>
+            </div>
+            <p>
+              “Although a little bit frustrated with my situation with
+              the company, Prem was very clear and helpful in helping me
+              through the problem.”
+            </p>
             <span class="review-place">DYMON Storage Coventry</span>
           </article>
 
           <article class="review-card">
-            <div class="review-card-top"><span class="google-g">G</span><span class="stars">★★★★★</span></div>
-            <p>“I have nothing but good praise for how I was treated at Dymon, from Prem specifically. He went above and beyond, showed me all the features they had to offer and was very quick and transparent with his communication.”</p>
+            <div class="review-card-top">
+              <span class="google-g">G</span>
+              <span class="stars">★★★★★</span>
+            </div>
+            <p>
+              “I have nothing but good praise for how I was treated at
+              Dymon, from Prem specifically. He went above and beyond,
+              showed me all the features they had to offer and was very
+              quick and transparent with his communication.”
+            </p>
             <span class="review-place">DYMON Storage Coventry</span>
           </article>
 
           <article class="review-card">
-            <div class="review-card-top"><span class="google-g">G</span><span class="stars">★★★★★</span></div>
-            <p>“The store associate Prem dealt very kindly with me. Knowledgeable about all the offerings of the brand. Helped me find exactly what I needed to suit my needs.”</p>
+            <div class="review-card-top">
+              <span class="google-g">G</span>
+              <span class="stars">★★★★★</span>
+            </div>
+            <p>
+              “The store associate Prem dealt very kindly with me.
+              Knowledgeable about all the offerings of the brand. Helped
+              me find exactly what I needed to suit my needs.”
+            </p>
             <span class="review-place">DYMON Storage Coventry</span>
           </article>
 
           <article class="review-card">
-            <div class="review-card-top"><span class="google-g">G</span><span class="stars">★★★★★</span></div>
-            <p>“Amazing service, Prem our service representative was extremely professional and informative.”</p>
+            <div class="review-card-top">
+              <span class="google-g">G</span>
+              <span class="stars">★★★★★</span>
+            </div>
+            <p>
+              “Amazing service, Prem our service representative was
+              extremely professional and informative.”
+            </p>
             <span class="review-place">DYMON Storage Coventry</span>
           </article>
 
           <article class="review-card">
-            <div class="review-card-top"><span class="google-g">G</span><span class="stars">★★★★★</span></div>
-            <p>“Amazing experience the food was very tasty crispy and fresh. Prem was very nice and polite will be coming back to this location.”</p>
+            <div class="review-card-top">
+              <span class="google-g">G</span>
+              <span class="stars">★★★★★</span>
+            </div>
+            <p>
+              “Amazing experience the food was very tasty crispy and
+              fresh. Prem was very nice and polite will be coming back
+              to this location.”
+            </p>
             <span class="review-place">KFC — Ottawa</span>
           </article>
 
           <article class="review-card">
-            <div class="review-card-top"><span class="google-g">G</span><span class="stars">★★★★★</span></div>
-            <p>“Amazing customer service, prem is a great shift leader. The store is warm and welcoming.”</p>
+            <div class="review-card-top">
+              <span class="google-g">G</span>
+              <span class="stars">★★★★★</span>
+            </div>
+            <p>
+              “Amazing customer service, prem is a great shift leader.
+              The store is warm and welcoming.”
+            </p>
             <span class="review-place">KFC — Ottawa</span>
           </article>
 
           <article class="review-card">
-            <div class="review-card-top"><span class="google-g">G</span><span class="stars">★★★★★</span></div>
+            <div class="review-card-top">
+              <span class="google-g">G</span>
+              <span class="stars">★★★★★</span>
+            </div>
             <p>“I am very Happy to Mr Prem. He is excellent Manager.”</p>
             <span class="review-place">KFC — Ottawa</span>
           </article>
 
           <article class="review-card">
-            <div class="review-card-top"><span class="google-g">G</span><span class="stars">★★★★★</span></div>
-            <p>“Prem, the Manager and Tanya, Cashier were amazing super kind friendly and helpful highly recommend.”</p>
+            <div class="review-card-top">
+              <span class="google-g">G</span>
+              <span class="stars">★★★★★</span>
+            </div>
+            <p>
+              “Prem, the Manager and Tanya, Cashier were amazing super
+              kind friendly and helpful highly recommend.”
+            </p>
             <span class="review-place">KFC — Ottawa</span>
           </article>
 
           <article class="review-card">
-            <div class="review-card-top"><span class="google-g">G</span><span class="stars">★★★★★</span></div>
+            <div class="review-card-top">
+              <span class="google-g">G</span>
+              <span class="stars">★★★★★</span>
+            </div>
             <p>“Prem is awesome very professional and interactive with customer.”</p>
             <span class="review-place">KFC — Ottawa</span>
           </article>
 
           <article class="review-card">
-            <div class="review-card-top"><span class="google-g">G</span><span class="stars">★★★★★</span></div>
+            <div class="review-card-top">
+              <span class="google-g">G</span>
+              <span class="stars">★★★★★</span>
+            </div>
             <p>“Prem offered excellent service and the food was great! Thank you!”</p>
             <span class="review-place">KFC — Ottawa</span>
-          </article>
-
-          <article class="review-card">
-            <div class="review-card-top"><span class="google-g">G</span><span class="stars">★★★★★</span></div>
-            <p>“I have been with Dymon since 2024! All interactions and request were dealt with swiftly and professionally!! As I became in a position to downsize to a smaller unit the consultant I interacted with, Prim, was amazing and helped me professionally, promptly and with complete courtesy!! If I require service like this again I will contact him or any member of Dymon Walkley as they provide EXACTLY what you need!!!”</p>
-            <span class="review-place">DYMON Storage Walkley</span>
           </article>
 
         </div>
@@ -410,109 +305,39 @@
         <a class="button button-outline"
            href="https://www.google.com/maps/place/DYMON+Storage+Coventry+-+Ottawa/@45.4193788,-75.682426,20z/data=!4m8!3m7!1s0x4cce057ea8108389:0x3353cb09ba35e5b1!8m2!3d45.421599!4d-75.6516074!9m1!1b1!16s%2Fg%2F1tfptx4j?entry=ttu"
            target="_blank" rel="noopener noreferrer">
-          More (30+) DYMON Reviews ↗
+          More (33+) DYMON reviews ↗
         </a>
 
         <a class="button button-outline"
            href="https://www.google.com/maps/place/KFC/@45.4308887,-75.6414074,17z/data=!4m8!3m7!1s0x4cce0561e6262303:0xbbd5dbc8c7e8b65b!8m2!3d45.4308887!4d-75.6414074!9m1!1b1!16s%2Fg%2F1tj45jf_?entry=ttu"
            target="_blank" rel="noopener noreferrer">
-          More KFC Reviews ↗
+          More KFC reviews ↗
         </a>
       </div>
 
       <p class="disclaimer">
-        Review excerpts are shown for portfolio purposes. This is an
-        independent personal portfolio, not an official company website.
+        Review excerpts are included for portfolio purposes.
+        This is an independent personal portfolio.
       </p>
     </section>
 
-    <!-- EXPERIENCE -->
-    <section class="section experience-section" id="experience">
-      <div class="section-heading">
-        <p class="eyebrow">WORK IN ACTION</p>
-        <h2>Reliable on the floor. <span>Focused on people.</span></h2>
-      </div>
+<section class="section" id="education">
+ <div class="section-heading"><p class="eyebrow">EDUCATION</p><h2>Learning backed by <span>hands-on work.</span></h2></div>
+ <div class="education-strip"><span class="meta">Jan 2024 – Aug 2025</span><h3>Ontario Graduate Certificate — Full Stack Software Development</h3><p>Lambton College, Ottawa · GPA 3.70/4.00 · Dean’s Honour List</p></div>
+ <div class="education-strip"><span class="meta">2017 – 2021</span><h3>Bachelor of Technology — Computer Science and Engineering</h3><p>Kakatiya Institute of Technology and Science, Warangal · 80.2%</p></div>
+</section>
 
-      <div class="experience-grid">
-
-        <article class="experience-card">
-          <div class="experience-number">01</div>
-          <div>
-            <span class="company-tag">STORAGE · SALES · OPERATIONS</span>
-            <h3>Storage Services — Ottawa</h3>
-            <p>
-              Customer consultations, leasing support, storage solutions,
-              retail sales, facility presentation and shift handovers.
-            </p>
-            <a href="https://www.google.com/maps/place/DYMON+Storage+Coventry+-+Ottawa/@45.4193788,-75.682426,20z/data=!4m8!3m7!1s0x4cce057ea8108389:0x3353cb09ba35e5b1!8m2!3d45.421599!4d-75.6516074!9m1!1b1!16s%2Fg%2F1tfptx4j?entry=ttu"
-               target="_blank" rel="noopener noreferrer">
-              Customer Reviews ↗
-            </a>
-          </div>
-        </article>
-
-        <article class="experience-card">
-          <div class="experience-number">02</div>
-          <div>
-            <span class="company-tag">FOOD SERVICE · LEADERSHIP</span>
-            <h3>KFC — Ottawa</h3>
-            <p>
-              Guest service, shift coordination, team support and
-              maintaining food-service standards.
-            </p>
-            <a href="https://www.google.com/maps/place/KFC/@45.4308887,-75.6414074,17z/data=!4m8!3m7!1s0x4cce0561e6262303:0xbbd5dbc8c7e8b65b!8m2!3d45.4308887!4d-75.6414074!9m1!1b1!16s%2Fg%2F1tj45jf_?entry=ttu"
-               target="_blank" rel="noopener noreferrer">
-              Customer Reviews ↗
-            </a>
-          </div>
-        </article>
-
-      </div>
-    </section>
-
-    <!-- CONTACT / STORE SUPPORT -->
-    <section class="contact-section" id="contact">
-      <div>
-        <p class="eyebrow">CUSTOMER SUPPORT</p>
-        <h2>The store team is your point of contact.</h2>
-        <p>
-          For immediate assistance, please contact or visit the store team.
-          Any non-urgent matters intended for Prem will be considered
-          after his expected return on October 23, 2026.
-        </p>
-      </div>
-
-      <div class="contact-buttons">
-        <a class="button button-gold"
-           href="#team-support">
-          Store Support Information ↓
-        </a>
-        <a class="button button-outline"
-           href="#reviews">
-          Read Customer Reviews ↗
-        </a>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- FOOTER -->
-  <footer>
-    <a class="brand footer-brand" href="#home">
-      <span class="brand-mark">P</span>
-      <span>
-        PREMSINGH PADYA
-        <small>CUSTOMER EXPERIENCE &amp; LEADERSHIP</small>
-        <span class="founder-credit">
-          GetOpsCue.com <span>(Founder &amp; Product Lead)</span>
-        </span>
-      </span>
-    </a>
-
-    <span>Personal page · © <span id="year"></span></span>
-    <a href="#home">Back to top ↑</a>
-  </footer>
-
-  <script src="script.js"></script>
+<section class="section contact-section" id="contact">
+ <div class="section-heading"><p class="eyebrow">LET’S CONNECT</p><h2>Have a role or project in mind?</h2><p>I’m interested in opportunities across software development, AEM, application support, technical support, and junior full-stack/product engineering.</p></div>
+ <div class="contact-details">
+  <p><strong>Email:</strong> <a href="mailto:premsinghpadya944@gmail.com">premsinghpadya944@gmail.com</a></p>
+  <p><strong>Phone:</strong> <a href="tel:+13435587818">343-558-7818</a></p>
+  <p><strong>Portfolio project:</strong> <a href="https://getopscue.com" target="_blank" rel="noopener">GetOpsCue.com ↗</a></p>
+  <div class="hero-actions"><a class="button button-gold" href="Premsingh_Padya_Resume.pdf" target="_blank" rel="noopener">Download Résumé ↗</a><a class="button button-outline-light" href="mailto:premsinghpadya944@gmail.com">Email Me</a></div>
+ </div>
+</section>
+</main>
+<footer><span>© <span id="year"></span> Premsingh Padya</span><span>Software · Support · Product · Operations</span><a href="#home">Back to top ↑</a></footer>
+<script src="script.js"></script>
 </body>
 </html>
